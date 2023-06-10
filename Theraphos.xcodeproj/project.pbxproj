@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		255C743F2A34315500E0DBFD /* TheraphosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255C743E2A34315500E0DBFD /* TheraphosApp.swift */; };
+		255C74412A34315500E0DBFD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255C74402A34315500E0DBFD /* ContentView.swift */; };
+		255C74432A34315700E0DBFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 255C74422A34315700E0DBFD /* Assets.xcassets */; };
+		255C74462A34315700E0DBFD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 255C74452A34315700E0DBFD /* Preview Assets.xcassets */; };
+		255C74482A34315700E0DBFD /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255C74472A34315700E0DBFD /* Persistence.swift */; };
+		255C744B2A34315700E0DBFD /* Theraphos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 255C74492A34315700E0DBFD /* Theraphos.xcdatamodeld */; };
+		255C74562A34315800E0DBFD /* TheraphosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255C74552A34315800E0DBFD /* TheraphosTests.swift */; };
+		255C74602A34315800E0DBFD /* TheraphosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255C745F2A34315800E0DBFD /* TheraphosUITests.swift */; };
+		255C74622A34315800E0DBFD /* TheraphosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255C74612A34315800E0DBFD /* TheraphosUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		255C74522A34315800E0DBFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 255C74332A34315400E0DBFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 255C743A2A34315500E0DBFD;
+			remoteInfo = Theraphos;
+		};
+		255C745C2A34315800E0DBFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 255C74332A34315400E0DBFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 255C743A2A34315500E0DBFD;
+			remoteInfo = Theraphos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		255C743B2A34315500E0DBFD /* Theraphos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Theraphos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		255C743E2A34315500E0DBFD /* TheraphosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheraphosApp.swift; sourceTree = "<group>"; };
+		255C74402A34315500E0DBFD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		255C74422A34315700E0DBFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		255C74452A34315700E0DBFD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		255C74472A34315700E0DBFD /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		255C744A2A34315700E0DBFD /* Theraphos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Theraphos.xcdatamodel; sourceTree = "<group>"; };
+		255C744C2A34315700E0DBFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		255C74512A34315800E0DBFD /* TheraphosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheraphosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		255C74552A34315800E0DBFD /* TheraphosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheraphosTests.swift; sourceTree = "<group>"; };
+		255C745B2A34315800E0DBFD /* TheraphosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheraphosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		255C745F2A34315800E0DBFD /* TheraphosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheraphosUITests.swift; sourceTree = "<group>"; };
+		255C74612A34315800E0DBFD /* TheraphosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheraphosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		255C74382A34315500E0DBFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255C744E2A34315800E0DBFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255C74582A34315800E0DBFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		255C74322A34315400E0DBFD = {
+			isa = PBXGroup;
+			children = (
+				255C743D2A34315500E0DBFD /* Theraphos */,
+				255C74542A34315800E0DBFD /* TheraphosTests */,
+				255C745E2A34315800E0DBFD /* TheraphosUITests */,
+				255C743C2A34315500E0DBFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		255C743C2A34315500E0DBFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				255C743B2A34315500E0DBFD /* Theraphos.app */,
+				255C74512A34315800E0DBFD /* TheraphosTests.xctest */,
+				255C745B2A34315800E0DBFD /* TheraphosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		255C743D2A34315500E0DBFD /* Theraphos */ = {
+			isa = PBXGroup;
+			children = (
+				255C743E2A34315500E0DBFD /* TheraphosApp.swift */,
+				255C74402A34315500E0DBFD /* ContentView.swift */,
+				255C74422A34315700E0DBFD /* Assets.xcassets */,
+				255C74472A34315700E0DBFD /* Persistence.swift */,
+				255C744C2A34315700E0DBFD /* Info.plist */,
+				255C74492A34315700E0DBFD /* Theraphos.xcdatamodeld */,
+				255C74442A34315700E0DBFD /* Preview Content */,
+			);
+			path = Theraphos;
+			sourceTree = "<group>";
+		};
+		255C74442A34315700E0DBFD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				255C74452A34315700E0DBFD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		255C74542A34315800E0DBFD /* TheraphosTests */ = {
+			isa = PBXGroup;
+			children = (
+				255C74552A34315800E0DBFD /* TheraphosTests.swift */,
+			);
+			path = TheraphosTests;
+			sourceTree = "<group>";
+		};
+		255C745E2A34315800E0DBFD /* TheraphosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				255C745F2A34315800E0DBFD /* TheraphosUITests.swift */,
+				255C74612A34315800E0DBFD /* TheraphosUITestsLaunchTests.swift */,
+			);
+			path = TheraphosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		255C743A2A34315500E0DBFD /* Theraphos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 255C74652A34315800E0DBFD /* Build configuration list for PBXNativeTarget "Theraphos" */;
+			buildPhases = (
+				255C74372A34315500E0DBFD /* Sources */,
+				255C74382A34315500E0DBFD /* Frameworks */,
+				255C74392A34315500E0DBFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Theraphos;
+			productName = Theraphos;
+			productReference = 255C743B2A34315500E0DBFD /* Theraphos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		255C74502A34315800E0DBFD /* TheraphosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 255C74682A34315800E0DBFD /* Build configuration list for PBXNativeTarget "TheraphosTests" */;
+			buildPhases = (
+				255C744D2A34315800E0DBFD /* Sources */,
+				255C744E2A34315800E0DBFD /* Frameworks */,
+				255C744F2A34315800E0DBFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				255C74532A34315800E0DBFD /* PBXTargetDependency */,
+			);
+			name = TheraphosTests;
+			productName = TheraphosTests;
+			productReference = 255C74512A34315800E0DBFD /* TheraphosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		255C745A2A34315800E0DBFD /* TheraphosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 255C746B2A34315800E0DBFD /* Build configuration list for PBXNativeTarget "TheraphosUITests" */;
+			buildPhases = (
+				255C74572A34315800E0DBFD /* Sources */,
+				255C74582A34315800E0DBFD /* Frameworks */,
+				255C74592A34315800E0DBFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				255C745D2A34315800E0DBFD /* PBXTargetDependency */,
+			);
+			name = TheraphosUITests;
+			productName = TheraphosUITests;
+			productReference = 255C745B2A34315800E0DBFD /* TheraphosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		255C74332A34315400E0DBFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					255C743A2A34315500E0DBFD = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					255C74502A34315800E0DBFD = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 255C743A2A34315500E0DBFD;
+					};
+					255C745A2A34315800E0DBFD = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 255C743A2A34315500E0DBFD;
+					};
+				};
+			};
+			buildConfigurationList = 255C74362A34315400E0DBFD /* Build configuration list for PBXProject "Theraphos" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 255C74322A34315400E0DBFD;
+			productRefGroup = 255C743C2A34315500E0DBFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				255C743A2A34315500E0DBFD /* Theraphos */,
+				255C74502A34315800E0DBFD /* TheraphosTests */,
+				255C745A2A34315800E0DBFD /* TheraphosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		255C74392A34315500E0DBFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255C74462A34315700E0DBFD /* Preview Assets.xcassets in Resources */,
+				255C74432A34315700E0DBFD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255C744F2A34315800E0DBFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255C74592A34315800E0DBFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		255C74372A34315500E0DBFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255C744B2A34315700E0DBFD /* Theraphos.xcdatamodeld in Sources */,
+				255C74482A34315700E0DBFD /* Persistence.swift in Sources */,
+				255C74412A34315500E0DBFD /* ContentView.swift in Sources */,
+				255C743F2A34315500E0DBFD /* TheraphosApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255C744D2A34315800E0DBFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255C74562A34315800E0DBFD /* TheraphosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255C74572A34315800E0DBFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255C74602A34315800E0DBFD /* TheraphosUITests.swift in Sources */,
+				255C74622A34315800E0DBFD /* TheraphosUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		255C74532A34315800E0DBFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 255C743A2A34315500E0DBFD /* Theraphos */;
+			targetProxy = 255C74522A34315800E0DBFD /* PBXContainerItemProxy */;
+		};
+		255C745D2A34315800E0DBFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 255C743A2A34315500E0DBFD /* Theraphos */;
+			targetProxy = 255C745C2A34315800E0DBFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		255C74632A34315800E0DBFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		255C74642A34315800E0DBFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		255C74662A34315800E0DBFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Theraphos/Preview Content\"";
+				DEVELOPMENT_TEAM = 27F82B4B33;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mi11y.Theraphos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		255C74672A34315800E0DBFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Theraphos/Preview Content\"";
+				DEVELOPMENT_TEAM = 27F82B4B33;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mi11y.Theraphos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		255C74692A34315800E0DBFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27F82B4B33;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mi11y.TheraphosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Theraphos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Theraphos";
+			};
+			name = Debug;
+		};
+		255C746A2A34315800E0DBFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27F82B4B33;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mi11y.TheraphosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Theraphos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Theraphos";
+			};
+			name = Release;
+		};
+		255C746C2A34315800E0DBFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27F82B4B33;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mi11y.TheraphosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Theraphos;
+			};
+			name = Debug;
+		};
+		255C746D2A34315800E0DBFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27F82B4B33;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mi11y.TheraphosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Theraphos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		255C74362A34315400E0DBFD /* Build configuration list for PBXProject "Theraphos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255C74632A34315800E0DBFD /* Debug */,
+				255C74642A34315800E0DBFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		255C74652A34315800E0DBFD /* Build configuration list for PBXNativeTarget "Theraphos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255C74662A34315800E0DBFD /* Debug */,
+				255C74672A34315800E0DBFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		255C74682A34315800E0DBFD /* Build configuration list for PBXNativeTarget "TheraphosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255C74692A34315800E0DBFD /* Debug */,
+				255C746A2A34315800E0DBFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		255C746B2A34315800E0DBFD /* Build configuration list for PBXNativeTarget "TheraphosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255C746C2A34315800E0DBFD /* Debug */,
+				255C746D2A34315800E0DBFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		255C74492A34315700E0DBFD /* Theraphos.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				255C744A2A34315700E0DBFD /* Theraphos.xcdatamodel */,
+			);
+			currentVersion = 255C744A2A34315700E0DBFD /* Theraphos.xcdatamodel */;
+			path = Theraphos.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 255C74332A34315400E0DBFD /* Project object */;
+}
